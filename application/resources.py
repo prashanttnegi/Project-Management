@@ -766,7 +766,7 @@ class GitHubCommitsResource(Resource):
         # repo_name = "soft-engg-project-sep-2024-se-sep-19"
 
         branch_name = "main"
-        github_token = "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"
+        github_token = 
 
         url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits?sha={branch_name}&per_page=100&page=1"
         headers = {
