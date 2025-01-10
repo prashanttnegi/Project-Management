@@ -1,0 +1,399 @@
+.parent {
+    padding: 1rem;
+}
+  
+.child {
+  
+    border: 3px solid #ffffff75;
+    padding: 1rem;
+    border-radius: 8px;
+}
+  
+.inline-block-child {
+    /* display: inline-block; */
+  
+    display: inline-flex;
+    flex-direction: column;
+}
+  
+.btn-primary {
+    background-color: #1f51fb;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: 83%;
+}
+  
+.btn-danger {
+    background-color: #ab0313;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: 83%;
+}
+  
+.btn-warning {
+    background-color: #fff562;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: 83%;
+}
+  
+h2 {
+    color: #ad4d1c;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+  
+.highlight {
+    background-color: #fbff0aad;
+    color: black;
+    padding: 9px;
+    border: 2px SOLID #c8d145;
+    border-radius: 5px;
+}
+  
+.bg-warning {
+    --bs-bg-opacity: 1;
+    background-color: #f45f00 !important;
+}
+
+.popup {
+    border: 1px solid red;
+    width: 70%;
+    height: 70%;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    border-radius: 15px;
+    border: 5px solid #80808080;
+    display:none;
+    overflow-y: auto;
+}
+
+.closebtn {
+    float: right;
+    margin: 7px;
+    border: 3px solid red;
+    padding: 5px;
+    border-radius: 50px;
+    width: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    color: grey; cursor: pointer;
+}
+
+.project-milestone-info-admin {
+    width: 100%;
+    border: 2px dotted #d4b1b1;
+    border-radius: 5px;
+    height: auto;
+    background-color: white;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+/* img{
+    width: 130px;
+    height: auto;
+    margin-top: 0px;
+} */
+
+.custom-img {
+    width: 100%;
+    height: 180px;
+    margin-top: 0px;
+}
+
+.navbar{
+    /* background: linear-gradient(to bottom right, rgb(254, 44, 44), rgb(136, 44, 44)); */
+    width: 100%;
+    height: 55px;
+    background: rgb(113,63,63);
+    background: linear-gradient(90deg, rgba(113,63,63,1) 7%, rgba(113,63,63,1) 24%, rgba(135,93,93,1) 47%, rgba(255,255,255,0.6699054621848739) 100%);
+    border-radius: 9px;
+    margin-bottom: 16px;
+}
+
+.main-body{
+    margin-top: 15svh;
+}
+
+.offcanvas-half {
+    width: 50%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+  
+.search-container input[type="search"] {
+    margin-right: 10px;
+}
+  
+#add-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: bottom 0.3s ease-in-out, right 0.3s ease-in-out;
+}
+  
+#add-button.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+.custom-card {
+    width: 300px;
+    min-height: 500px;
+    max-height: 800px;
+    margin-bottom: 20px;
+}
+
+.custom-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-card .card-body .row {
+    margin-top: 10px;
+}
+
+.inline-label {
+    display: inline-flex;
+    align-items: center;
+}
+
+.inline-label input {
+    margin-left: 10px; /* Adjust the desired spacing */
+}
+
+.inline-label p {
+    margin-left: 10px; /* Adjust the desired spacing */
+}
+
+.rectangular-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.inner-card {
+    flex: 0 0 auto;
+    height: 200px;
+    width: 200px; 
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+
+.inner-card:hover {
+    background-color:rgb(65, 76, 83); 
+}
+
+.button-content {
+    flex-grow: 1;
+}
+
+.product-image {
+    flex: 0 0 auto;
+    height: 60%; /* Adjust the desired height for the image */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+ 
+.input-container {
+    position: relative;
+}
+  
+#popup {
+    display: none;
+    position: absolute;
+    background-color: #ffcccc;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 20px; /* Make it round to create a capsule effect */
+    top: 10px; /* Adjust the value to position the pop-up below the input */
+    left: 50%; /* Position the pop-up horizontally */
+    transform: translateX(-50%); /* Center the pop-up horizontally */
+}
+  
+.details-box {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid rgb(136, 44, 44);
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+    color: #555;
+}
+
+.introduction {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+.popup_2 {
+    border: 1px solid red;
+    width: 70%;
+    height: 70%;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    border-radius: 15px;
+    border: 5px solid #80808080;
+}
+  
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #ff0000; /* You can set the desired background color */
+    color: #fff; /* You can set the desired text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.modal-backdrop {
+    opacity: 0; /* Make it fully transparent */
+    visibility: hidden; /* Hide it completely */
+}
+
+.img-fluid {
+    width: 550px;
+    height: auto;
+}
+
+.milestone_popup {
+    width: 80%;
+    max-width: 800px; /* Limits the maximum width for larger screens */
+    height: 54%;
+    max-height: 90vh; /* Ensures the height doesn't exceed the viewport height */
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 72%;
+    left: 63%;
+    transform: translate(-44%, -50%);
+    z-index: 99999;
+    border-radius: 15px;
+    border: 5px solid #80808080;
+    overflow-y: auto;
+    display: block !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    text-align: left;
+    padding: 1rem;
+}
+
+  
+.team-member {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+  
+.member-info {
+    display: flex;
+    flex-direction: column;
+}
+  
+.member-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+  
+.member-role {
+    font-size: 14px;
+    color: #888;
+}
+  
+.view-button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.view-button:hover {
+    background-color: #b30000;
+}
+
+.popup_edit {
+    border: 1px solid red;
+    width: 80%;
+    height: 80%;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    border-radius: 15px;
+    border: 5px solid #80808080;
+    overflow: auto;
+}
+
+mt-10{
+    margin-top: 0rem !important;
+}
